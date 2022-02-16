@@ -1,0 +1,46 @@
+.container {
+  padding: 6px 26px 8px;
+
+  width: max-content;
+
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid transparent;
+
+  cursor: pointer;
+  &.primary {
+    background-color: var(--accent);
+    * {
+      color: var(--white) !important;
+    }
+
+    &:hover {
+      background-color: var(--accent-hover);
+    }
+    &:active {
+      background-color: var(--accent-active);
+    }
+  }
+  &.secondary {
+    border: 2px solid var(--accent);
+    * {
+      color: var(--accent) !important;
+    }
+    &:hover {
+      background-color: var(--accent-opacity-1);
+    }
+    &:active {
+      border-color: var(--accent-active);
+      * {
+        color: var(--accent-active) !important;
+      }
+    }
+  }
+  &.disabled {
+    cursor: default;
+    background-color: var(--grey);
+    * {
+      color: var(--white) !important;
+    }
+  }
+}

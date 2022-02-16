@@ -1,0 +1,15 @@
+.container {
+  margin-top: 20px;
+
+  border-radius: var(--border-radius);
+
+  transition: all 150ms linear;
+
+  &:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  &.expanded-true {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+}

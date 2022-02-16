@@ -1,0 +1,28 @@
+[
+  {
+    "label": "Manage participants",
+    "href": "/manage-participants",
+    "subItems": []
+  },
+  {
+    "label": "Select A Model",
+    "href": "/select-model",
+    "subItems": []
+  },
+  {
+    "label": "Define bonus pool",
+    "href": "/define-bonus-pool",
+    "subItems": [
+      {
+        "label": "Company funding",
+        "href": "/define-bonus-pool/funding",
+        "subItems": []
+      },
+      {
+        "label": "Special bonuses",
+        "href": "/define-bonus-pool/special-bonuses",
+        "subItems": []
+      }
+    ]
+  }
+]

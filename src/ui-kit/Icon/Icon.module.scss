@@ -1,0 +1,18 @@
+.text {
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 100ms linear;
+
+  &:hover {
+    background: var(--light-grey);
+  }
+  &:active,
+  &:focus {
+    // background: var(--dark-grey-opacity);
+    background: var(--light-grey-active);
+  }
+
+  &.no-effect--true {
+    background: none;
+  }
+}

@@ -1,0 +1,14 @@
+.tooltip {
+  position: absolute;
+  background: white;
+  padding: 12px 20px 14px;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+
+  z-index: 999;
+  top: calc(100% + 10px);
+  left: 0;
+
+  width: max-content;
+  max-width: 240px;
+}

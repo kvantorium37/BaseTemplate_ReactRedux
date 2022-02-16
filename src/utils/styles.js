@@ -1,0 +1,1 @@
+export const varColor = (color) => `var(--${color})`

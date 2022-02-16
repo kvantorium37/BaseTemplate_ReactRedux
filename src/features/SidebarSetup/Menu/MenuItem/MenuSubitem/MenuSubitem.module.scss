@@ -1,0 +1,13 @@
+.container {
+  margin-top: 15px;
+  display: flex;
+}
+.link {
+  display: flex;
+  align-items: center;
+  &::before {
+    content: "•";
+    font-size: 9px;
+    margin-right: 10px;
+  }
+}

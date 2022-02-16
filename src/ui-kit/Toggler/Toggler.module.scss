@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  background-color: var(--dark-grey-opacity);
+
+  height: 8px;
+  width: 32px;
+
+  border-radius: 1000px;
+
+  &.active_true {
+    background-color: var(--accent-opacity-bg);
+  }
+  &.active_false {
+  }
+
+  &:hover {
+    .circle {
+      transform: scale(1.15);
+    }
+  }
+}
+
+.circle {
+  position: absolute;
+  border-radius: 1000px;
+  display: block;
+  background-color: var(--grey);
+  min-width: 16px;
+  min-height: 16px;
+
+  max-width: 16px;
+  max-height: 16px;
+
+  transition: all 100ms linear;
+
+  &.active_true {
+    right: 0;
+    background-color: var(--accent);
+  }
+  &.active_false {
+  }
+}

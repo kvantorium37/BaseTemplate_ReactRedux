@@ -1,0 +1,20 @@
+.text {
+  line-height: 150%;
+  &.nowrap-true {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  &.active-true {
+    cursor: pointer;
+    &:hover {
+      color: var(--accent) !important;
+    }
+  }
+  &.active-red-true {
+    cursor: pointer;
+    &:hover {
+      color: var(--red) !important;
+    }
+  }
+}

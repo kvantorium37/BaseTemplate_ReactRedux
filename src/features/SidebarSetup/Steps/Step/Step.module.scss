@@ -1,0 +1,35 @@
+.container {
+  cursor: default;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 1000px;
+
+  min-height: 26px;
+  max-height: 26px;
+
+  min-width: 26px;
+  max-width: 26px;
+
+  background-color: var(--light-grey);
+
+  color: var(--dark-grey);
+
+  &.active {
+    color: var(--accent);
+    background-color: var(--accent-opacity-1);
+  }
+
+  &:hover {
+    .tooltip {
+      display: flex;
+    }
+  }
+}
+
+.tooltip {
+  display: none;
+}

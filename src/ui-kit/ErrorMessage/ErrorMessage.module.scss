@@ -1,0 +1,11 @@
+.container {
+  max-width: 300px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: white;
+  z-index: 99999999999999;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  padding: 34px 40px 36px;
+}

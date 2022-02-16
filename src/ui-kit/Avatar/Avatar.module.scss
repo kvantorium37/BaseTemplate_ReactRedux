@@ -1,0 +1,42 @@
+$container_size: 56px;
+$avatar_big: 48px;
+$avatar_small: 30px;
+
+.container {
+  &.big {
+    display: flex;
+    width: fit-content;
+    border-radius: 1000px;
+    border: 2px solid var(--light-grey);
+    min-width: $container_size;
+    min-height: $container_size;
+    max-width: $container_size;
+    max-height: $container_size;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 12px;
+  }
+  &.small {
+    margin-right: 9px;
+  }
+}
+
+.avatar {
+  &.big {
+    min-width: $avatar_big;
+    min-height: $avatar_big;
+
+    max-width: $avatar_big;
+    max-height: $avatar_big;
+  }
+
+  &.small {
+    min-width: $avatar_small;
+    min-height: $avatar_small;
+
+    max-width: $avatar_small;
+    max-height: $avatar_small;
+  }
+}

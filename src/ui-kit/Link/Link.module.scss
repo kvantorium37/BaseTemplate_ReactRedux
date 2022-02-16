@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+  &:hover {
+    .text {
+      color: var(--accent) !important;
+    }
+  }
+}
+
+.text {
+}

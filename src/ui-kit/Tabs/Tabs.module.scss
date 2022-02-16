@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  max-width: 1200px;
+}
+.tabs {
+  flex-wrap: wrap;
+  display: flex;
+  padding-right: 100px;
+  // overflow: auto;
+}
+
+.rect {
+  pointer-events: none;
+  display: block;
+  width: 200px;
+  height: 33px;
+  background: linear-gradient(0.25turn, var(--light-grey-0), var(--light-grey));
+  position: absolute;
+  right: 0;
+  top: 0;
+}

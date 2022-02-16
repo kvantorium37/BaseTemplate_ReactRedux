@@ -1,0 +1,15 @@
+.container {
+  position: absolute;
+  top: 18px;
+  left: 30px;
+
+  padding: 18px 20px 25px 20px;
+  border-radius: var(--border-radius);
+
+  cursor: default;
+  background-color: var(--white);
+  border: 1px solid var(--light-grey);
+
+  width: max-content;
+  z-index: 999;
+}
